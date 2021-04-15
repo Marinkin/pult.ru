@@ -1,0 +1,11 @@
+.menu__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 1280px) {
+    .menu__container {
+        text-align: center;
+    }
+}

@@ -1,0 +1,29 @@
+@import url(_accent/content__title_accent.css);
+
+.content__title {
+    text-transform: uppercase;
+    color: #1d9cd8;
+    font-size: 40px;
+    position: absolute;
+    bottom: 13.6%;
+    left: 4.8%;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media screen and (max-width: 1275px) {
+    .content__title {
+       font-size: 24px;
+    }
+}
+@media screen and (max-width: 780px) {
+    .content__title {
+        bottom: 17.6%;
+        left: 1.8%;
+
+    }
+}

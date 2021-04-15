@@ -1,0 +1,10 @@
+.menu__items {
+    list-style-type: none;
+    width: 50%;
+    padding: 0;
+}
+@media screen and (max-width: 1280px) {
+    .menu__items {
+        width: 100%;
+    }
+}

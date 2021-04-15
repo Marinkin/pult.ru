@@ -1,0 +1,25 @@
+.footer__column_content_copyright {
+    align-self: flex-start;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: start;
+}
+@media screen and (max-width: 1280px) {
+    .footer__column_content_copyright {
+        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        align-items: normal;
+    }
+}
+@media screen and (max-width: 780px) {
+    .footer__column_content_copyright {
+        margin-bottom: 40px;
+        width: 100%;
+    }
+}

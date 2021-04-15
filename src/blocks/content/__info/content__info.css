@@ -1,0 +1,42 @@
+.content__info {
+    transition: 0.3s ease-in-out;
+    -webkit-transition:  0.3s ease-in-out;
+    -o-transition:  0.3s ease-in-out;
+    color: #FFFFFF;
+     min-height: 45px;
+    padding: 0 57px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    background-color: #1d9cd8;
+
+}
+
+@media screen and (max-width: 1280px) {
+    .content__info {
+        padding: 0 20px;
+    }
+}
+@media screen and (max-width: 780px) {
+    .content__info {
+        padding: 0 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

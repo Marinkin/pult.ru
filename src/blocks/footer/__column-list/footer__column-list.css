@@ -1,0 +1,6 @@
+.footer__column-list {
+    margin-bottom: 20px;
+}
+.footer__column-links:last-child{
+    position: relative;
+}

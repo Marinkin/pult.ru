@@ -1,0 +1,18 @@
+.content__banner {
+    display: block;
+    width: 100%;
+    min-height: 340px;
+    object-fit: cover;
+    o-object-fit: cover;
+    transition: transform 0.3s ease-in-out,
+    -webkit-transform 0.3s ease-in-out;
+    -webkit-transition: -webkit-transform 0.3s ease-in-out;
+    transition: -webkit-transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+
+}
+.content__banner:hover{
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -o-transform: scale(1.02);
+}

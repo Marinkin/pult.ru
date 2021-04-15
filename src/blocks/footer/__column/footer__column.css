@@ -1,0 +1,18 @@
+@import url(_content/footer__column_content_copyright.css);
+
+.footer__column {
+    width: 50%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+}
+
+@media screen and (max-width: 780px) {
+    .footer__column {
+        width: 100%;
+    }
+}

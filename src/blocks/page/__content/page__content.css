@@ -1,0 +1,10 @@
+.page__content {
+    width: 100%;
+    margin: 0 auto;
+    min-height: 100vh;
+    min-width: 320px;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+

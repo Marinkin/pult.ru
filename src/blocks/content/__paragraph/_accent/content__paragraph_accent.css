@@ -1,0 +1,20 @@
+.content__paragraph_accent {
+    font-size: 190px;
+    font-weight: 500;
+    line-height: 100%;
+    font-family: Gilroy-Semibold, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@media screen and (max-width: 1280px) {
+    .content__paragraph_accent {
+        font-size: 132px;
+
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .content__paragraph_accent {
+        font-size: 98px;
+    }
+}

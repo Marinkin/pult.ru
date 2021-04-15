@@ -1,0 +1,11 @@
+@import url(_img/footer__logo_img.css);
+
+.footer__logo {
+    width: 20%;
+    padding: 0 20px 0 0;
+}
+@media screen and (max-width: 780px) {
+    .footer__logo {
+        width: 23%;
+    }
+}

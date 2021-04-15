@@ -1,0 +1,12 @@
+.footer__phone {
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer__phone:hover {
+    text-decoration: underline;
+}

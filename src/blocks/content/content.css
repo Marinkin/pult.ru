@@ -1,0 +1,17 @@
+@import url(__highlight/content__highlight.css);
+@import url(__slider/content__slider.css);
+@import url(__bunner/content__bunner.css);
+@import url(__title/content__title.css);
+@import url(__info/content__info.css);
+@import url(__link/content__link.css);
+@import url(__text/content__text.css);
+@import url(__info-text/content__info-text.css);
+@import url(__subtitle/content__subtitle.css);
+@import url(__paragraph/content__paragraph.css);
+
+
+.content {
+    margin: 20px auto 0;
+    width: 100%;
+    max-width: 1200px;
+}
