@@ -12,8 +12,12 @@ Make sure that you have  installed node.js
 If not, install https://nodejs.org/en/download/
 
 $ cd project
+
 $ npm install
+
 $ npm run build
+
 $ npm run dev
 
-Ссылка на проект:https://marinkin.github.io/mesto/index.html
+
+Ссылка на проект:https://marinkin.github.io/pult.ru/index.html
