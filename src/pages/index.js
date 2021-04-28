@@ -1,3 +1,6 @@
+import './index.css';
+
+
 new Swiper('.swiper-container', {
     pagination: {
         el: '.swiper-pagination',
@@ -19,8 +22,8 @@ let menuItems = document.querySelectorAll('.menu__item');
 let menuBox = document.querySelector('.menu__img');
 
 
-for (i = 0; i < menuItems.length; i++) {
-    menuItem = menuItems[i];
+for ( let i = 0; i < menuItems.length; i++) {
+    let menuItem = menuItems[i];
     menuItem.addEventListener('mouseover', mouseoverHandler);
     menuItem.addEventListener('mouseout', mouseoutHandler);
 }
