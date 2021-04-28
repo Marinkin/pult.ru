@@ -20,3 +20,4 @@ $ npm run build
 $ npm run dev
 
 
+ссылка на проект: https://marinkin.github.io/pult.ru/index.html
