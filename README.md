@@ -15,3 +15,5 @@ $ cd project
 $ npm install
 $ npm run build
 $ npm run dev
+
+Ссылка на проект:https://marinkin.github.io/mesto/index.html
